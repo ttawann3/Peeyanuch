@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peeyanuch's Portfolio</title>
+  <link rel="stylesheet" href="C.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="nav-left">
+        <li><a class="nav-btn home" href="Home.html">Home</a></li>
+        <li><a class="nav-btn profile" href="Profile.html">Profile</a></li>
+        <li><a class="nav-btn talent" href="Talent.html">Talent</a></li>
+        <li><a class="nav-btn performance" href="Performance.html">Performance</a></li>
+      </ul>
+      <div class="nav-right">
+        <span class="name-tag">Name : Peeyanuch Deerakchat</span>
+        <div class="menu-icon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Gallery -->
+    <div class="video-container">
+        <div class="video-wrapper">
+          <video id="video1" loop>
+            <source src="bot.mp4" type="video/mp4">
+            เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+          </video>
+          <button class="video-btn" onclick="toggleVideo('video1')">Play / Pause</button>
+        </div>
+
+        <div class="video-wrapper">
+          <video id="video2" loop>
+            <source src="yoo.mp4" type="video/mp4">
+            เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+          </video>
+          <button class="video-btn" onclick="toggleVideo('video2')">Play / Pause</button>
+        </div>
+    </div>
+
+  </div>
+  <script src="C.js"></script>
+</body>
+</html>
