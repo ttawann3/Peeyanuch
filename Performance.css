@@ -162,7 +162,6 @@ body {
   background-position: center;        /* จัดตำแหน่งรูปตรงกลาง */
   background-attachment: fixed;       /* ทำให้พื้นหลังไม่เลื่อน */
   font-family: Arial, sans-serif;
-  overflow: hidden;                   /* ห้ามเลื่อน */
 }
 
 
@@ -429,3 +428,4 @@ body {
     text-align: center;
   }
 }
+
